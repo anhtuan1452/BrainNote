@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#4285F4</color>
+
+    <!-- Google Colors -->
+    <color name="googleBlue">#4285F4</color>
+    <color name="googleRed">#EB4335</color>
+    <color name="googleYellow">#FBBC05</color>
+    <color name="googleGreen">#34A853</color>
+
+    <!-- Note Colors -->
+    <color name="noteBlue">#7FDBEC</color>
+    <color name="notePink">#FF9DAD</color>
+    <color name="noteYellow">#FBBC05</color>
+    <color name="noteBrown">#B07F7F</color>
+    <color name="noteGreen">#9AE66E</color>
+
+    <!-- UI Colors -->
+    <color name="textGray">#909090</color>
+    <color name="rippleColor">#1F000000</color>
+    <color name="dividerGray">#D7D7D7</color>
+    <!-- App specific colors -->
+    <color name="blue">#5C6BC0</color>
+    <color name="coral">#FF8A80</color>
+    <color name="pink">#EC407A</color>
+    <color name="purple">#7E57C2</color>
+    <color name="dark_gray">#424242</color>
+    <color name="medium_gray">#757575</color>
+    <color name="light_gray">#E0E0E0</color>
+    <color name="white_transparent">#80FFFFFF</color>
+</resources>

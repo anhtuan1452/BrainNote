@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">Brain Note</string>
+    <string name="welcome_text" translatable="false">Chào mừng đến với Brain Note</string>
+    <string name="main_title" translatable="false">Công việc, học tập, nhiệm vụ. Ghi nhớ mọi thứ</string>
+    <string name="continue_with_google" translatable="false">Tiếp tục với Google</string>
+    <string name="or" translatable="false">hoặc</string>
+    <string name="create_account" translatable="false">Tạo tài khoản</string>
+    <string name="sign_in" translatable="false">Đăng nhập</string>
+    <string name="default_web_client_id">942344742128-ci83il9l08mud0uh0fmtnjgq4c3plj5a.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
