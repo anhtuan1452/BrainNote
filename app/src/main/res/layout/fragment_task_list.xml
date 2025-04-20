@@ -76,7 +76,7 @@
                     android:id="@+id/title_in_progress"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Công việc của bạn (0)"
+                    android:text="Công việc của bạn (3)"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                     android:textStyle="bold" />
 
@@ -99,7 +99,7 @@
                     android:id="@+id/title_completed"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Hoàn thành (0)"
+                    android:text="Hoàn thành (2)"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                     android:textStyle="bold" />
 
@@ -114,15 +114,5 @@
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab_add_task"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:contentDescription="@string/add_task"
-        android:src="@drawable/ic_add"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

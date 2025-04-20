@@ -75,8 +75,8 @@ public class MainActivity extends AppCompatActivity {
             public void onSuccess() {
                 Toast.makeText(MainActivity.this, "Nhập dữ liệu thành công", Toast.LENGTH_SHORT).show();
                 // Lưu cục bộ và tải lên Firebase
-                JsonSyncManager.saveNotebooksToFile(MainActivity.this);
-                JsonSyncManager.uploadNotebooksToFirebase();
+                JsonSyncManager.saveDataToFile(MainActivity.this);
+                JsonSyncManager.uploadDataToFirebase();
                 proceedToMainHomeActivity();
             }
 

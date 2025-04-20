@@ -8,6 +8,28 @@
     <string name="sign_in" translatable="false">Đăng nhập</string>
     <string name="default_web_client_id">942344742128-ci83il9l08mud0uh0fmtnjgq4c3plj5a.apps.googleusercontent.com</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+        <string name="home">Trang chủ</string>
+        <string name="tasks">Nhiệm vụ</string>
+        <string name="add_task">Thêm nhiệm vụ</string>
+        <string name="filter">Lọc</string>
+        <string name="more">Thêm</string>
+        <string name="close">Đóng</string>
+        <string name="search">Tìm kiếm</string>
+        <string name="edit">Chỉnh sửa</string>
+        <string name="delete">Xóa</string>
+        <string name="share">Chia sẻ</string>
+        <string name="save">Lưu</string>
+        <string name="cancel">Hủy</string>
+        <string name="done">Xong</string>
+        <string name="priority">Độ ưu tiên</string>
+        <string name="due_date">Ngày hết hạn</string>
+        <string name="completed">Đã hoàn thành</string>
+        <string name="in_progress">Đang thực hiện</string>
+        <string name="add_description">Thêm mô tả</string>
+        <string name="task_title">Tiêu đề nhiệm vụ</string>
+        <string name="task_description">Mô tả nhiệm vụ</string>
+        <string name="high_priority">Cao</string>
+        <string name="medium_priority">Trung bình</string>
+        <string name="low_priority">Thấp</string>
 
 </resources>

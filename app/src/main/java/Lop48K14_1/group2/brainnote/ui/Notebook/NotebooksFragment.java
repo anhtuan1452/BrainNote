@@ -305,8 +305,8 @@ public class NotebooksFragment extends Fragment implements NotebookAdapter.OnNot
             adapter.notifyItemChanged(position);
             updateNotebookCount();
 
-            JsonSyncManager.saveNotebooksToFile(requireContext());
-            JsonSyncManager.uploadNotebooksToFirebase();
+            JsonSyncManager.saveDataToFile(requireContext());
+            JsonSyncManager.uploadDataToFirebase();
             Toast.makeText(getContext(), "Đã cập nhật sổ tay", Toast.LENGTH_SHORT).show();
         });
 
@@ -326,8 +326,8 @@ public class NotebooksFragment extends Fragment implements NotebookAdapter.OnNot
                     adapter.notifyItemRemoved(position);
                     updateNotebookCount();
 
-                    JsonSyncManager.saveNotebooksToFile(requireContext());
-                    JsonSyncManager.uploadNotebooksToFirebase();
+                    JsonSyncManager.saveDataToFile(requireContext());
+                    JsonSyncManager.uploadDataToFirebase();
                     Toast.makeText(getContext(), "Đã xóa sổ tay", Toast.LENGTH_SHORT).show();
                 })
                 .setNegativeButton("Hủy", (dialog, which) -> {})

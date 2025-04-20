@@ -81,14 +81,14 @@ public class NewNotebookFragment extends Fragment {
 
         // Lưu vào tệp cục bộ
         try {
-            JsonSyncManager.saveNotebooksToFile(getContext());
+            JsonSyncManager.saveDataToFile(getContext());
             Toast.makeText(getContext(), "Đã lưu sổ tay vào bộ nhớ cục bộ", Toast.LENGTH_SHORT).show();
         } catch (Exception e) {
             Toast.makeText(getContext(), "Lỗi khi lưu vào bộ nhớ cục bộ: " + e.getMessage(), Toast.LENGTH_LONG).show();
         }
 
         // Tải lên Firebase
-        JsonSyncManager.uploadNotebooksToFirebase();
+        JsonSyncManager.uploadDataToFirebase();
         Toast.makeText(getContext(), "Đang đồng bộ sổ tay với Firebase...", Toast.LENGTH_SHORT).show();
 
         // Thông báo thành công và quay lại
